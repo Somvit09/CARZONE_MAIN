@@ -122,7 +122,7 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': 'carzone.sqlite3',
+#        'NAME': 'last_edited_database_for_CARZONE.sqlite3',
 #    }
 # }
 

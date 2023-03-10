@@ -48,7 +48,6 @@ def contact(request):
         email_subject = 'You have a new message from Carzone regarding ' + subject
         message_body = f"Thank You {name} for making query about {message}. We will get back with you soon."
 
-        admin_info = User.objects.get(is_superuser=True)
         admin_email = email
         send_mail(
                 email_subject,
